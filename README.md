@@ -11,7 +11,7 @@
     2) 根据系统要求设置锁屏密码，输入证书名称（随便输）
 5. 安卓7以下不需要进行本步
     1) 有Magisk
-    2) 安装仓库里的模块[AlwaysTrustUserCerts.zip](https://ghproxy.com/https://raw.githubusercontent.com/heqyoufree/FGO/main/AlwaysTrustUserCerts.zip)，重启即可
+    2) 安装仓库里的模块[AlwaysTrustUserCerts.zip](https://ghproxy.com/https://raw.githubusercontent.com/heqyoufree/FGO/main/AlwaysTrustUserCerts_2.zip)，重启即可
     3) 无Magisk
     4) 把`/data/misc/user/0/cacerts-added`里的所有文件复制到`/system/etc/security/cacerts/`
     5) 重启
