@@ -9,6 +9,9 @@
 1. 如果你对自己的文字理解水平没有自信，建议你仔细阅读以下文档
 2. 如果你按照教程来，还是没有效果，也应该先阅读以下文档
 3. [疑难解答](./Troubleshooting.md)
+## 关于使用问题的解答
+我会提供使用帮助，直到你可以正常使用。  
+但是我不是一直都有空，如果你发现我长时间没有回消息，应该只是我在忙。
 ## 使用方法（安卓独立版）
 1. 安装应用
 2. 点击`安装证书`
@@ -28,9 +31,10 @@
 
 ### 有Magisk
 1. 安装证书
-1. 安装仓库里的模块[AlwaysTrustUserCerts.zip](https://ghproxy.com/https://raw.githubusercontent.com/heqyoufree/FGO/main/AlwaysTrustUserCerts.zip)
-2. 重启即可
+2. 安装仓库里的模块[AlwaysTrustUserCerts.zip](https://ghproxy.com/https://raw.githubusercontent.com/heqyoufree/FGO/main/AlwaysTrustUserCerts.zip)
+3. 重启即可
 
 ### 无Magisk
-1. 把`/data/misc/user/0/cacerts-added`里的所有文件复制到`/system/etc/security/cacerts/`
-2. 重启
+1. 安装证书
+2. 把`/data/misc/user/0/cacerts-added`里的所有文件复制到`/system/etc/security/cacerts/`
+3. 重启
